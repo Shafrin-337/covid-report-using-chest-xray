@@ -1,0 +1,59 @@
+﻿*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    box-sizing: border-box;
+}
+.CovidReportBody{
+     width:100vw;
+     height:100vh;
+     display:flex;
+     justify-content:center;
+     align-items:center;
+    
+}
+.centerPage {
+    width: 350px;
+    height: auto;
+    margin: auto;
+    border: 2px solid #808080;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #b06486, -5px -5px 10px white;
+}
+.fields{
+    margin:10px 0px;
+}
+.txtBox {
+    width: 100%;
+    margin: 0px 0px 10px 0px;
+    background: transparent;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    font-size: 17px;
+    box-shadow: inset 2px 2px 4px #b06486, inset -2px -2px 4px #b06486;
+}
+.txtSubmitBtn {
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    border: none;
+    outline: none;
+    color: #b06486;
+}
+.fields > label {
+    font-weight: bold;
+    color: white;
+    font-family: 'Times New Roman' !important;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+.fields{
+    height:80px;
+ }
